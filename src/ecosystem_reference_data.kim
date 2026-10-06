@@ -1,0 +1,10 @@
+private namespace ecosystem_reference_data
+using nca.ecosystem.iucn;
+
+model 'local:alessio.bulckaen:esa.weed.aries:weed_validation#getraster'
+	as im:Reference nca.ecosystem.iucn:EcosystemType 
+	classified according to im:ecosystem-get-iucn;
+
+model each 'local:alessio.bulckaen:esa.weed.aries:weed_validation'
+	as im:Reference nca.ecosystem.iucn:Ecosystem earth:Site; 
+//	classified according to im:ecosystem-get-iucn;
