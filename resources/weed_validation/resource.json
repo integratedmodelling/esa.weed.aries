@@ -1,0 +1,248 @@
+{
+  "urn" : "local:alessio.bulckaen:esa.weed.aries:weed_validation",
+  "version" : "0.0.1",
+  "adapterType" : "wfs",
+  "localPath" : "esa.weed.aries/resources/weed_validation",
+  "geometry" : "#s0(1000000){bbox=[-180.0 180.0 -90.0 90.0],proj=EPSG:4326}",
+  "projectName" : "esa.weed.aries",
+  "localName" : "weed_validation",
+  "type" : "OBJECT",
+  "resourceTimestamp" : 1791213878948,
+  "metadata" : {
+    "im:keywords" : "features,validation",
+    "dc:title" : "validation"
+  },
+  "parameters" : {
+    "serviceUrl" : "https://geoserver.iiasa.ac.at/geoserver/weed/ows",
+    "wfsVersion" : "1.0.0",
+    "wfsIdentifier" : "weed:validation"
+  },
+  "localPaths" : [ ],
+  "history" : [ ],
+  "notifications" : [ ],
+  "attributes" : [ {
+    "name" : "Id",
+    "type" : "TEXT",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "MgrsId10",
+    "type" : "TEXT",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "LocationId",
+    "type" : "TEXT",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "Grid20Id",
+    "type" : "TEXT",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "CenterLon",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "License",
+    "type" : "TEXT",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "CenterLat",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "Longitude",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "Latitude",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "OriginalId",
+    "type" : "TEXT",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "TimeStamp",
+    "type" : "VALUE",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "Eu",
+    "type" : "TEXT",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "Eunis2021Plus",
+    "type" : "TEXT",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "IucnGet",
+    "type" : "TEXT",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "CollectionId",
+    "type" : "TEXT",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "EuConfidence",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "Eunis2021PlusConfidence",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "IucnGetConfidence",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "Confidence",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "Type",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "EuQuality",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "Eunis2021PlusQuality",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "IucnGetQuality",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "EuValidated",
+    "type" : "BOOLEAN",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "Eunis2021PlusValidated",
+    "type" : "BOOLEAN",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "IucnGetValidated",
+    "type" : "BOOLEAN",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "CreationTime",
+    "type" : "VALUE",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "year",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "EunisRaster",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  }, {
+    "name" : "GetRaster",
+    "type" : "NUMBER",
+    "key" : false,
+    "optional" : true,
+    "exampleValue" : null,
+    "index" : 0
+  } ],
+  "spatialExtent" : {
+    "east" : 180.0,
+    "west" : -180.0,
+    "north" : 90.0,
+    "south" : -90.0,
+    "gridResolution" : null,
+    "gridUnit" : null
+  },
+  "dependencies" : null,
+  "outputs" : null,
+  "categorizables" : [ ],
+  "codelists" : [ ],
+  "availability" : null,
+  "exportFormats" : { }
+}
