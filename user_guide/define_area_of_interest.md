@@ -1,11 +1,20 @@
 # *WEED champion user guide:*
-## _How to define and share an area of interest_
+## _How to define and share an area of interest?_
 
 **Audience:** WEED application users  
 **Purpose:** Provide the geographic boundary to observe in WEED.  
 **Preferred deliverables:** (1) WKT text with its coordinate reference system (CRS), or (2) a ZIP archive containing a vector file (shapefile format).  
 
 You do **not** need to write k.LAB observation code. The WEED technical team will use your boundary to configure the observation.
+
+## _Which areas of interest are currently used?_
+You can check which are are used directly in the WEED application or in [this QGIS project](https://drive.google.com/drive/folders/1VxrGTC7qqHhDvlrBR15VjfIJNWapf4qt?usp=sharing), also shared in the Rocket chat channel dedicated to the champion users [WEED-CU](https://chat.integratedmodelling.org/group/dPGBCCXJu8rZ9AFE5).
+
+#### ESA_WEED_New_Contexts_for_map_validation
+This project contains the areas of interest and the global refernce data available for each country
+<img width="960" height="564" alt="image" src="https://github.com/user-attachments/assets/b4726402-1367-44e8-b640-840d9b87803c" />
+
+
 
 ## 1. Choose the easiest method
 
@@ -52,7 +61,7 @@ Click the **green check mark** in the drawing toolbar to use the selected shape 
 
 ### Step 4 — Make an observation in the selected area
 
-1. Use the knowledge bar to search for an observable, for example **Elevation**.
+1. Use the knowledge bar to search for an observable, for example **Elevation** by typing in ``elevation``.
 2. Once the observation is complete, the context is stored until the end of the session
 
 ![Image 5: Searching for Elevation](https://github.com/user-attachments/assets/ff7f409f-3cd5-4a9d-889e-33f81ae16963)
@@ -61,7 +70,17 @@ Click the **green check mark** in the drawing toolbar to use the selected shape 
 
 ![Image 7: Elevation observation and value on the map](https://github.com/user-attachments/assets/bd66185b-dc46-47a1-a225-21c52b42de4c)
 
-**Note:** The observation in these screenshots is only an example. The purpose of this guide is to define and share the **area boundary**, not to prescribe which observable to select.
+
+If you want to query a the public results for Ecosystem Typology as modelled in the ARIES for SEEA:
+
+- type in _**ecos**_
+
+![Image 8](https://github.com/user-attachments/assets/48cde5c4-3542-4e28-9fca-0b470cd9bdf1) 
+
+- select the  quality _**EcosystemType**_ (light green font)
+![Image 9](https://github.com/user-attachments/assets/a21af1e9-caa6-41f0-a0ca-629f65430964)
+
+**Note:** The observations in these screenshots are only an example. The purpose of this guide is to define and share the **area boundary**, not to prescribe which observable to select.
 
 ### Step 5 — Reuse or copy the saved context
 
@@ -72,11 +91,11 @@ After drawing and using the area, open the context menu again and select **Previ
 3. Click the **copy** icon beside the context to copy its boundary to the clipboard.
 4. Paste the copied text into a plain-text file, email or message and send it to the WEED team.
 
-![Image 8: Previous contexts and the copy context shape control](https://github.com/user-attachments/assets/6fa59823-8570-4a7c-9ced-997840ec5ba4)
+![Image 10: Previous contexts and the copy context shape control](https://github.com/user-attachments/assets/6fa59823-8570-4a7c-9ced-997840ec5ba4)
 
-![Image 9: Confirmation that the context was copied to the clipboard](https://github.com/user-attachments/assets/471fb8ae-d72b-4a18-b270-c2febe4091fe)
+![Image 11: Confirmation that the context was copied to the clipboard](https://github.com/user-attachments/assets/471fb8ae-d72b-4a18-b270-c2febe4091fe)
 
-![Image 10: Example copied boundary text](https://github.com/user-attachments/assets/c73ba43f-44a6-4325-a435-b7c3bc789a52)
+![Image 12: Example copied boundary text](https://github.com/user-attachments/assets/c73ba43f-44a6-4325-a435-b7c3bc789a52)
 
 The copied text looks similar to this (illustrative coordinates only):
 
