@@ -61,7 +61,8 @@ Click the **green check mark** in the drawing toolbar to use the selected shape 
 
 ### Step 4 — Make an observation in the selected area
 
-1. Use the knowledge bar to search for an observable, for example **Elevation** by typing in ``elevation``.
+1. Use the knowledge bar to search for an observable, for example **Elevation** by typing in ``elevation`` _using strictly lowercase (only for geographical contexts, such as country, region, city, or other geographic entity, start with an uppercase)_.
+
 2. Once the observation is complete, the context is stored until the end of the session
 
 ![Image 5: Searching for Elevation](https://github.com/user-attachments/assets/ff7f409f-3cd5-4a9d-889e-33f81ae16963)
