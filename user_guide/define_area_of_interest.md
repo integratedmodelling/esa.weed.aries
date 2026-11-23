@@ -8,7 +8,7 @@
 You do **not** need to write k.LAB observation code. The WEED technical team will use your boundary to configure the observation.
 
 ## _Which areas of interest are currently used?_
-You can check which are are used directly in the WEED application or in [this QGIS project](https://drive.google.com/drive/folders/1VxrGTC7qqHhDvlrBR15VjfIJNWapf4qt?usp=sharing), also shared in the Rocket chat channel dedicated to the champion users [WEED-CU](https://chat.integratedmodelling.org/group/dPGBCCXJu8rZ9AFE5).
+You can check which are are used directly in the WEED application or in [this QGIS project](https://drive.google.com/drive/folders/1VxrGTC7qqHhDvlrBR15VjfIJNWapf4qt), also shared in the Rocket chat channel dedicated to the champion users [WEED-CU](https://chat.integratedmodelling.org/group/dPGBCCXJu8rZ9AFE5).
 
 #### ESA_WEED_New_Contexts_for_map_validation
 This project contains the areas of interest and the global refernce data available for each country
