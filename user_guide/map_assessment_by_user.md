@@ -337,7 +337,7 @@ Champion Users can contribute to improving the quality and coverage of the refer
 
 ### 3.8 Report the assessment and follow up
 
-Use the shared **WEED Champion User Assessment Register** ([open the assessment register](INSERT_GOOGLE_SHEETS_URL)) to record your work, report map and reference data issues, and follow up on improvements.
+Use the shared **WEED Champion User Assessment Register** ([open the assessment register](https://docs.google.com/spreadsheets/d/1HfxkSCN03wiaF6ovjMcJL-lP-BW0GjPq0HjonPsWIrs/edit?usp=sharing)) to record your work, report map and reference data issues, and follow up on improvements.
 
 All participating countries use the same register, providing a shared overview of assessment progress and contributions across the project. Only cells intended for reporting assessment results are editable. Please make sure not to overwrite or modify information entered by other countries.
 
