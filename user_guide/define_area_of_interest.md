@@ -220,7 +220,7 @@ No. The illustrated workflow provides access to previous contexts **within the s
 No. The WEED technical team will configure observation parameters, including spatial resolution and time, separately from the boundary you provide.
 
 **What if my dataset is in another CRS?**  
-Either reproject it to EPSG:4326 using QGIS, or share the original shapefile with its `.prj` and clearly state the CRS. Ask the WEED team if you are unsure.
+Either reproject it to EPSG:4326 using QGIS, or share the original shapefile with its `.prj` and clearly state the CRS. Ask the WEED team if you are unsure, we can accomodate the integration of a new projection (or we're likely support it already, e.g. a UTM projected prj)
 
 ---
 
