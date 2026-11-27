@@ -29,9 +29,9 @@ Visual and quantitative assessment complement each other. A map can agree with m
 
 ### 2.1 Access the application and select an area of interest
 
-Open the WEED application and identify the geographical area you want to assess. If you need to prepare a boundary or draw a context in k.Explorer, refer to the companion guide on preparing and sharing geographic boundaries.
+[Open the WEED application](https://weed.integratedmodelling.org/modeler/#/login?app=esa.aries.en) using your [k.HUB credentials](https://github.com/integratedmodelling/esa.weed.aries/blob/2defd94cede67bed39139bf9433d8b6dbe0bf458/user_guide/access_to_rocket_chat.md#1-register-in-the-khub) and identify the geographical area you want to assess. If you need to prepare a boundary or draw a context in k.Explorer, [refer to the companion guide on preparing and sharing geographic boundaries](https://github.com/integratedmodelling/esa.weed.aries/blob/2defd94cede67bed39139bf9433d8b6dbe0bf458/user_guide/define_area_of_interest.md).
 
-**To be confirmed:** application URL, sign-in procedure, how Champion Users select a predefined or custom area, and the filename/link to the companion boundary guide.
+_**To be confirmed:** application URL, sign-in procedure, how Champion Users select a predefined or custom area, and the filename/link to the companion boundary guide._
 
 ### 2.2 Obtain the ecosystem map
 
@@ -39,7 +39,7 @@ Obtain the ecosystem map for the selected area and record the map year, model ap
 
 > **Important:** To trigger the computation of a map for an area that has not yet been calculated, use the WEED application first.
 
-**To be confirmed:** exact steps and observation names for requesting each ecosystem product; how to select the year, model and typology; how to know that computation is complete and the map is available for RDM validation.
+_**To be confirmed:** exact steps and observation names for requesting each ecosystem product; how to select the year, model and typology; how to know that computation is complete and the map is available for RDM validation._
 
 ### 2.3 Perform a visual assessment
 
@@ -66,7 +66,7 @@ The WEED application also provides access to the underlying input data and model
 
 For example, if the map displays rectangular ecosystem patches where you expect an irregular transition, compare the pattern with relevant input layers. A similar pattern in an input layer may help identify the origin of the issue, although this alone does not prove causation.
 
-**To be confirmed:** exact interface steps for displaying input layers, inspecting their values and opening the model documentation.
+_**To be confirmed:** exact interface steps for displaying input layers, inspecting their values and opening the model documentation._
 
 ### 2.5 Consider the quality of the reference data
 
@@ -74,7 +74,7 @@ If a reference point appears inconsistent with the mapped ecosystem or with your
 
 At this stage, the aim is to identify points that deserve review, not to modify them to match the map. The RDM workflow in Section 3 explains how to investigate the reference data and prepare corrections.
 
-**To be confirmed:** whether and how reference points can currently be displayed and inspected directly in the WEED application. If they are not available there, perform this part of the assessment in the RDM.
+_**To be confirmed:** whether and how reference points can currently be displayed and inspected directly in the WEED application. If they are not available there, perform this part of the assessment in the RDM._
 
 ## 3. Detailed assessment: download the data and/or use the RDM
 
@@ -86,7 +86,7 @@ The WEED application allows you to download data at their original resolution. T
 
 When making comparisons, check the coordinate reference system, map year, spatial resolution, geographic extent and ecosystem typology. Make sure that class codes are interpreted using the corresponding legend or classification mapping. Differences in these characteristics can explain some apparent disagreements.
 
-**To be confirmed:** exact download procedure, available formats, how the class legend or encoding is provided, and which output and input layers can be downloaded.
+_**To be confirmed:** exact download procedure is a work in progress, available formats, how the class legend or encoding is provided, and which output and input layers can be downloaded will be provided soon._
 
 ### 3.2 Access the Reference Data Module (RDM)
 
@@ -134,8 +134,8 @@ The **Validation** tab allows you to generate a confusion matrix using the avail
   <em>Figure 3. Define the validation area and settings.</em>
 </p>
 
-**To be confirmed:** whether GET is also selectable within the EU, how to choose a map year/version, what validation method to select, and whether the analysis is clipped to the drawn polygon or includes all samples within the selected TIF footprints.
-
+_**To be confirmed:** whether GET is also selectable within the EU, how to choose a map year/version, what validation method to select, and whether the analysis is clipped to the drawn polygon or includes all samples within the selected TIF footprints.
+_
 ### 3.4 Generate and retrieve the validation results
 
 1. Select **Generate Confusion Matrix** to trigger the accuracy calculation.
@@ -280,8 +280,8 @@ Before drawing conclusions about an entire map or comparing different maps, exam
 - **Number of samples:** this example uses only 28 assessed records. A single disagreement can noticeably affect the results.
 - **Class representation:** 26 reference samples are MFT1.2 and only two are T7.3. The overall accuracy therefore largely reflects agreement for MFT1.2 rather than all ecosystem types in the area.
 - **Spatial representation:** inspect the location of the reference points. Concentrations of points or large areas without reference coverage may limit what can be concluded.
-- **Temporal consistency:** the workbook contains 25 reference records timestamped 1999 and three timestamped 2024, while the map filenames indicate 2024. Check what the timestamps represent and whether reference labels remain applicable to the map year.
-- **Reference quality and independence:** the usefulness of a quantitative assessment depends on reliable reference labels and the suitability of the validation data. If points were also used to develop the map, independence needs to be considered.
+- **Temporal consistency:** the workbook contains 25 reference records timestamped 1999 and three timestamped 2024, while the map filenames indicate 2024. Check what the timestamps represent and whether reference labels remain applicable to the map year. 
+- **Reference quality and independence:** the usefulness of a quantitative assessment depends on reliable reference labels and the suitability of the validation data.
 - **Sampling and uncertainty:** the count-based OA is agreement among the assessed samples. Without a suitable sampling design and estimation procedure, it should not be presented as an area-wide, unbiased accuracy estimate. The workbook reports an OA CI of ±7 at each level; its method and confidence level need confirmation before interpretation.
 
 A high accuracy score is not sufficient to conclude that the map is accurate everywhere. A low score also does not automatically mean that the map is wrong. Investigate the source of disagreements before reaching a conclusion.
@@ -353,7 +353,7 @@ Suggested information to include in feedback:
 | Quantitative results | RDM result identifier, validation settings, Excel output, sample count and relevant accuracy indicators. |
 | Suggested action | Proposed improvement, correction or further investigation. |
 
-**To be confirmed:** official feedback submission channel and template; whether and when to rerun the validation after reference data changes or map updates. If results are compared over time, record changes to the reference dataset, map version, validation method and geographic area so that differences can be interpreted correctly.
+_**To be confirmed:** official feedback submission channel and template; whether and when to rerun the validation after reference data changes or map updates. If results are compared over time, record changes to the reference dataset, map version, validation method and geographic area so that differences can be interpreted correctly._
 
 ---
 
