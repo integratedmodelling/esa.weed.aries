@@ -337,23 +337,49 @@ Champion Users can contribute to improving the quality and coverage of the refer
 
 ### 3.8 Report the assessment and follow up
 
-Conclude the assessment by summarising the main findings, including both plausible mapping issues and potential reference data problems. Provide enough detail for the WEED team to reproduce the issue and determine what needs to be improved.
+Use the shared **WEED Champion User Assessment Register** ([open the assessment register](INSERT_GOOGLE_SHEETS_URL)) to record your work, report map and reference data issues, and follow up on improvements.
 
-Suggested information to include in feedback:
+All participating countries use the same register, providing a shared overview of assessment progress and contributions across the project. Only cells intended for reporting assessment results are editable. Please make sure not to overwrite or modify information entered by other countries.
 
-| Field | What to record |
-| --- | --- |
-| Area of interest | Area name and boundary or coordinates of the issue. |
-| Map assessed | Model approach, typology, classification level, year and version or filename. |
-| Issue category | Map classification, delineation, input data, reference label, temporal mismatch, confidence or other. |
-| Description | Observed issue and expected result, if known. |
-| Reference data | Point ID, collection, existing label and proposed label, where relevant. |
-| Evidence | Screenshot, field observation, suitable-date imagery, local dataset or other supporting evidence. |
-| Confidence | How certain you are and why, including unresolved questions. |
-| Quantitative results | RDM result identifier, validation settings, Excel output, sample count and relevant accuracy indicators. |
-| Suggested action | Proposed improvement, correction or further investigation. |
+> [!NOTE]
+> If you accidentally overwrite another user's contribution:
+> - Use **Undo** (`Ctrl + Z` or `Cmd + Z` on Mac) if you have just made the change.
+> - If you discover the issue later, right-click the affected cell and select **Show edit history** to identify its previous value and restore it manually.
+> - If multiple cells have been affected, contact the WEED team. Previous versions of the workbook can be accessed through **File > Version history > See version history**.
+>
+> Please do not restore an entire previous version of the workbook yourself, as this could overwrite valid contributions made by other users in the meantime.
 
-_**To be confirmed:** official feedback submission channel and template; whether and when to rerun the validation after reference data changes or map updates. If results are compared over time, record changes to the reference dataset, map version, validation method and geographic area so that differences can be interpreted correctly._
+You are not expected to assess every geographical area available in the WEED application. Select the areas and products most relevant to your national priorities, local knowledge and available evidence. Where useful, assess GET ML and GET RB over the same context to facilitate comparison.
+
+#### Step 1 — Select areas and products
+
+Open **Assessment register** and select your country's named filter view. The available contexts and mapping products are already listed. Mark the rows you intend to assess as **Yes** under **Selected?** and indicate their priority. Leave unselected areas as No or Undecided. If you need to assess a custom area, contact the WEED team to add it to the register with its boundary and a unique identifier.
+
+#### Step 2 — Record assessment progress
+
+For each selected map, record the assessor, date, map year and version or filename. Update the visual, quantitative and reference review statuses as you work. If a method is not feasible or not needed, record the reason in **Summary / limitations**. A completed visual review can be useful even where reliable quantitative results are unavailable. Mark the overall review **Complete** once the planned work and limitations have been documented.
+
+#### Step 3 — Document findings and proposed actions
+
+In **Findings**, create one row for each distinct issue, give it a unique finding ID (for example, `COL-F001`) and select the associated Assessment ID. Record whether the issue concerns an ecosystem class or biome, a geographical area, both, or reference data. Where possible, provide the hierarchical level, expected and mapped class codes, location or extent, description, confidence, severity, and a suggested action. Link supporting evidence, such as screenshots, field observations or authoritative local datasets. You do not need to identify the technical cause of a problem.
+
+For instance, a recurring confusion between two ecosystem types may warrant a review of the model for those classes. A local spatial artefact may instead warrant investigation of the data or mapping approach in that specific area. These are suggestions for investigation, not automatic diagnoses.
+
+#### Step 4 — Record quantitative results and reference data review
+
+If you generated a confusion matrix, save the original RDM Excel export in the shared Google Drive and enter the relevant run ID, validation method, sample counts, accuracy indicators and interpretation in **Quantitative results**. Include the hierarchical level and class code where applicable. Leave undefined values blank and explain why; do not enter zero for an unavailable estimate. There is no need to transcribe the whole matrix.
+
+Use **Reference review** to record proposed or implemented changes to reference data and link to evidence. Follow the RDM procedures in Section 3.7. Do not revise a reference label simply to make it agree with the map, unless you're sure about that change.
+
+#### Step 5 — Review progress and follow up
+
+The **Dashboard** shows progress across the participating countries, including the number of selected and completed reviews and contributions of findings. It distinguishes coverage of available maps from progress against the areas selected for assessment. These indicators describe participation and assessment coverage, not the relative quality of national maps.
+
+The WEED technical team will review findings and document agreed improvements in **Actions**, including the affected model or ecosystem, responsible partner, status and any need for reassessment. When revised products are available, reassess relevant areas or ecosystem classes as requested. Preserve earlier results and use a new follow-up assessment entry to document the revised map version and evidence; record any changes in validation method, reference dataset or geographical extent before comparing results.
+
+**Shared evidence:** upload supporting files to the agreed country folder in Google Drive and link them from the relevant register entry. Do not include credentials or sensitive personal data; contact _alessio.buclkaen@bc3research.org_ so he can restrict access to the folder, which is currently accessible by everyone involved in the WEED project.
+
+_**To be confirmed before publication:** link to the shared register and evidence folder, responsible contacts, and timing of technical follow-up._
 
 ---
 
