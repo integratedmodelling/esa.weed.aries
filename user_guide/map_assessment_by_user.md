@@ -14,7 +14,7 @@ Two complementary tools are currently available:
 
 | Tool | What you can do |
 | --- | --- |
-| **WEED application** | Obtain and visualise ecosystem maps, inspect model input data and documentation, and download data at their original resolution. Use this application to request map computations for areas that have not yet been calculated. |
+| **[WEED application](https://weed.integratedmodelling.org/modeler/#/login?app=esa.aries.en)** | Obtain and visualise ecosystem maps, inspect model input data and documentation, and download data at their original resolution. Use this application to request map computations for areas that have not yet been calculated. |
 | **[WEED Reference Data Module (RDM)](https://weed-rdm.iiasa.ac.at/)** | Generate quantitative validation results for available maps and review, contribute and manage reference data. |
 
 The project aims to bring these capabilities together by the end of the project. For now, use the following workflow:
